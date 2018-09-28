@@ -1,0 +1,24 @@
+{
+  "name": "simplix",
+  "version": "0.0.1",
+  "description": "Browser build on chromium & electron.",
+  "main": "lib/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSSRDRG/simplix.git"
+  },
+  "author": "JSSRDRG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JSSRDRG/simplix/issues"
+  },
+  "homepage": "https://github.com/JSSRDRG/simplix#readme",
+  "devDependencies": {
+    "electron": "^3.0.2",
+    "standard": "^12.0.1"
+  }
+}
