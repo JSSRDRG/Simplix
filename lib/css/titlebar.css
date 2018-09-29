@@ -1,0 +1,34 @@
+/* ------- Windows ------- */
+
+/* Tab Bar */
+#app-titlebar.win32 #tab-bar {
+  height: 38px;
+  margin-right: 12px;
+  flex: 1 1 auto;
+}
+
+/* Window controls */
+#app-titlebar.win32 #window-controls {
+  width: 135px;
+  height: 27px;
+  box-sizing: border-box;
+  -webkit-app-region: no-drag;
+}
+#app-titlebar.win32 #window-controls .windows-button {
+  display: inline-block;
+  width: 45px;
+  height: 27px;
+  color: var(--window-controls-color);
+  transition: background-color 0.25s;
+}
+#app-titlebar.win32 #window-controls .windows-button:hover {
+  background-color: rgba(0,0,0,0.1);
+  color: var(--window-controls-color-active);
+}
+#app-titlebar.win32 #window-controls .windows-button:hover:active {
+  background-color: rgba(0,0,0,0.18);
+  transition: none;
+}
+#app-titlebar.win32 #window-controls .windows-button svg {
+  fill: currentColor;
+}
