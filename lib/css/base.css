@@ -25,6 +25,7 @@ html, body {
 #app-titlebar {
   width: 100%;
   height: 38px;
+  display: flex;
   background-color: var(--titlebar-background);
   -webkit-app-region: drag;
 }
