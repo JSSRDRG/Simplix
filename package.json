@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "lint": "standard",
-    "test": "npm install && electron ."
+    "test": "electron ."
   },
   "repository": {
     "type": "git",
