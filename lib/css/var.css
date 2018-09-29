@@ -5,6 +5,10 @@
   --font-family: caption;
   /* Colors */
   --titlebar-background: #cfcfcf;
+
+  --window-controls-color: #000000;
+  --window-controls-color-active: #000000;
+
   --chrome-background: #ffffff;
   --chrome-border-color: #e0e0e0;
 }
