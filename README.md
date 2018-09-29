@@ -19,5 +19,6 @@ Browser build on chromium &amp; electron.
 Notable changes in new Simplix versions will be documented here.
 
 ### 0.0.1
+* Added titlebar.
 
 ##### License [MIT](https://github.com/JSSRDRG/simplix/blob/master/LICENSE)
