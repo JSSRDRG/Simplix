@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "lint": "standard",
-    "test": "electron ."
+    "build-win32": "electron-packager . Simplix --overwrite --platform=win32 --out=builds"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/JSSRDRG/simplix#readme",
   "devDependencies": {
     "electron": "^3.0.2",
+    "electron-packager": "^12.1.2",
     "standard": "^12.0.1"
   }
 }
