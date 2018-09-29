@@ -5,7 +5,8 @@
   "main": "lib/main/main.js",
   "scripts": {
     "start": "electron .",
-    "lint": "standard"
+    "lint": "standard",
+    "test": "npm install && electron ."
   },
   "repository": {
     "type": "git",
