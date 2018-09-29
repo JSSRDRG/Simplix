@@ -1,0 +1,10 @@
+:root {
+  /* Font variables */
+  /* REVIEW: Check default font size & family with photoshop design. */
+  --font-size: 14px;
+  --font-family: caption;
+  /* Colors */
+  --titlebar-background: #cfcfcf;
+  --chrome-background: #ffffff;
+  --chrome-border-color: #e0e0e0;
+}
