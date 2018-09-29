@@ -20,4 +20,4 @@ install:
 test: off
 
 build_script:
-  - npm run build
+  - npm run build-win32
