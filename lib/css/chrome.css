@@ -1,0 +1,19 @@
+/* Controls buttons */
+#menuBtn {
+  margin-right: 4px;
+}
+#menuBtn .btnSvg {
+  -webkit-mask-image: url(../icons/menu.svg);
+}
+#homeBtn {
+  margin-right: 4px;
+}
+#homeBtn .btnSvg {
+  -webkit-mask-image: url(../icons/home.svg);
+}
+#addBtn {
+  margin-right: 4px;
+}
+#addBtn .btnSvg {
+  -webkit-mask-image: url(../icons/add.svg);
+}
