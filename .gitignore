@@ -3,3 +3,6 @@ node_modules/
 
 # Builds ouput folder
 builds
+
+#DS_Store files
+.DS_Store
