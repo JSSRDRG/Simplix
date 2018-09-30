@@ -7,7 +7,7 @@
     "start": "electron .",
     "lint": "standard",
     "build-win32": "electron-packager . Simplix --overwrite --platform=win32 --out=builds/win32",
-    "build-darwin": "electron-packager . Simplix --overwrite --platform=darwin --out=builds/darwin"
+    "build-darwin": "electron-packager . Simplix --overwrite --platform=darwin --out=builds/darwin && mv builds/darwin/Simplix-darwin-x64/Simplix.app builds/darwin && rm -r builds/darwin/Simplix-darwin-x64"
   },
   "repository": {
     "type": "git",
