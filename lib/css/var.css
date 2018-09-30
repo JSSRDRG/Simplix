@@ -11,4 +11,7 @@
 
   --chrome-background: #ffffff;
   --chrome-border-color: #e0e0e0;
+
+  /* Buttons */
+  --btn-icon-background: #555555;
 }
