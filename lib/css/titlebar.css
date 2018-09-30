@@ -1,11 +1,11 @@
-/* ------- Windows ------- */
-
 /* Tab Bar */
-#app-titlebar.win32 #tab-bar {
+#app-titlebar #tab-bar {
   height: 38px;
   margin-right: 12px;
   flex: 1 1 auto;
 }
+
+/* ------- Windows ------- */
 
 /* Window controls */
 #app-titlebar.win32 #window-controls {
@@ -31,4 +31,13 @@
 }
 #app-titlebar.win32 #window-controls .windows-button svg {
   fill: currentColor;
+}
+
+/* ------- MacOS ------- */
+
+/* Window controls */
+#app-titlebar.darwin #window-controls {
+  width: 78px;
+  height: 38px;
+  box-sizing: border-box;
 }
