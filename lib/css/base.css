@@ -63,13 +63,13 @@ button {
   box-sizing: border-box;
   padding: 3px;
   border-radius: 8px;
-  background-color: inherit;
+  background-color: transparent;
   transition: background-color 0.36s ease;
 }
 .btn:hover {
   background-color: rgba(0,0,0,0.08);
 }
-.btn:hover:active {
+.btn:active {
   background-color: rgba(0,0,0,0.16);
   transition: none;
 }
