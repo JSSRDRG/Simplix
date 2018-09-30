@@ -64,7 +64,7 @@ button {
   padding: 3px;
   border-radius: 8px;
   background-color: transparent;
-  transition: background-color 0.36s ease;
+  transition: background-color 0.36s var(--btn-transition);
 }
 .btn:hover {
   background-color: rgba(0,0,0,0.08);
