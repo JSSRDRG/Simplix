@@ -2,7 +2,7 @@
   /* Font variables */
   /* REVIEW: Check default font size & family with photoshop design. */
   --font-size: 14px;
-  --font-family: caption;
+  --font-family: caption, sans-serif;
   /* Colors */
   --titlebar-background: #cfcfcf;
 
