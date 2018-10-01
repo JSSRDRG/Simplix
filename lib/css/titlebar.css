@@ -1,11 +1,11 @@
+/* ------- Windows ------- */
+
 /* Tab Bar */
-#app-titlebar #tab-bar {
+#app-titlebar.win32 #tab-bar {
   height: 38px;
-  margin-right: 12px;
+  margin: 0 12px;
   flex: 1 1 auto;
 }
-
-/* ------- Windows ------- */
 
 /* Window controls */
 #app-titlebar.win32 #window-controls {
