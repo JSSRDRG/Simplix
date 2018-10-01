@@ -44,3 +44,39 @@
 #app-titlebar.darwin #window-controls.fullscreen {
   width: 0;
 }
+
+/* Tab Bar */
+#app-titlebar.darwin #tab-bar {
+  height: 38px;
+  margin-right: 12px;
+  flex: 1 1 auto;
+}
+
+/* ------- Tab item ------- */
+.tab {
+  display: inline-block;
+  width: 240px;
+  height: 38px;
+  background-color: var(--tab-background);
+  border-radius: 8px 8px 0 0;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.tab .favicon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  background-image: url(../icons/dribbble.png);
+  background-size: 18px;
+  background-repeat: no-repeat;
+}
+.tab .title {
+  display: inline-block;
+  width: 192px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 13px;
+  color: var(--tab-text-color);
+  vertical-align: top;
+}
