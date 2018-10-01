@@ -6,6 +6,9 @@
   /* Colors */
   --titlebar-background: #cfcfcf;
 
+  --tab-background: #ffffff;
+  --tab-text-color: #414141;
+
   --window-controls-color: #000000;
   --window-controls-color-active: #000000;
 
