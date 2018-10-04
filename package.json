@@ -1,5 +1,6 @@
 {
   "name": "simplix",
+  "productName": "Simplix",
   "version": "0.0.1",
   "description": "Browser build on chromium & electron.",
   "main": "lib/main/main.js",
