@@ -66,28 +66,30 @@
   -webkit-app-region: no-drag;
   transition:
     height 0.2s ease,
-    background-color 0.2s ease,
+    background-color 0.4s ease,
     border-radius 0.4s ease,
     padding 0.2s ease,
     margin 0.2s ease;
 }
+.tab:hover {
+  height: 38px;
+  border-radius: 8px 8px 0 0;
+  padding: 10px;
+  margin: 0 6px 0 0;
+}
 .tab.active {
   display: inline-block;
-  /* width: 240px; */
   height: 38px;
   background-color: var(--tab-active-background);
   border-radius: 8px 8px 0 0;
-  /* box-sizing: border-box; */
   padding: 10px;
   margin: 0 6px 0 0;
-  /* -webkit-app-region: no-drag; */
 }
 .tab .favicon {
   display: inline-block;
   width: 18px;
   height: 18px;
   margin-right: 10px;
-  background-image: url(../icons/dribbble.png);
   background-size: 18px;
   background-repeat: no-repeat;
 }
@@ -99,4 +101,9 @@
   font-size: 13px;
   color: var(--tab-text-color);
   vertical-align: top;
+  overflow: hidden;
+  transition: color 0.3s ease:
+}
+.tab.active .title {
+  color: var(--tab-active-text-color);
 }
