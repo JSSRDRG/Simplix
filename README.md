@@ -21,7 +21,7 @@ Notable changes in new Simplix versions will be documented here.
 ### 0.0.1-alpha.2
 * Fixed macOS fullscreen bug, titlebar margin-left was incorrect when in fullscreen.
 
-### 0.0.1-aplha.1
+### 0.0.1-alpha.1
 * Added titlebar (Windows & MacOS).
 * Tabbed browsing.
 
