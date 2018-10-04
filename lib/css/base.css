@@ -72,6 +72,10 @@ button {
 #webviews webview.active {
   visibility: visible;
 }
+#webviews webview.fullscreen {
+  position: fixed;
+  top: 0;
+}
 
 /* ------- Standard classes ------- */
 
