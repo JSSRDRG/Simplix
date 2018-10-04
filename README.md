@@ -20,5 +20,6 @@ Notable changes in new Simplix versions will be documented here.
 
 ### 0.0.1
 * Added titlebar (Windows & MacOS).
+* Tabbed browsing.
 
 ##### License [MIT](https://github.com/JSSRDRG/simplix/blob/master/LICENSE)
