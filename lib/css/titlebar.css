@@ -37,7 +37,7 @@
 
 /* Window controls */
 #app-titlebar.darwin #window-controls {
-  width: 78px;
+  width: 66px;
   height: 38px;
   box-sizing: border-box;
 }
@@ -48,7 +48,7 @@
 /* Tab Bar */
 #app-titlebar.darwin #tab-bar {
   height: 38px;
-  margin-right: 6px;
+  margin: 0 6px 0 12px;
   flex: 1 1 auto;
 }
 
