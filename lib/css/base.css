@@ -1,73 +1,75 @@
 * {
+  -webkit-user-select: none;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
   margin: 0;
   padding: 0;
-  font-size: var(--font-size);
-  font-family: var(--font-family);
-  -webkit-user-select: none;
 }
 html, body {
-  width: 100%;
   height: 100%;
   overflow: hidden;
+  width: 100%;
 }
 button {
-  border: 0;
-  outline: none;
   background-color: inherit;
+  border: 0;
+}
+button:focus {
+  outline: none;
 }
 
 /* App divs */
 #app {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 #app-container {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 #app-titlebar {
-  width: 100%;
-  height: 38px;
-  display: flex;
-  background-color: var(--titlebar-background);
   -webkit-app-region: drag;
+  background-color: var(--titlebar-background);
+  display: flex;
+  height: 38px;
+  width: 100%;
 }
 #app-content {
-  width: 100%;
   display: flex;
-  flex: 1 1 auto;
   flex-direction: column;
+  flex: 1 1 auto;
+  width: 100%;
 }
 #app-chrome {
-  width: 100%;
-  height: 39px;
-  box-sizing: border-box;
-  padding: 4px 12px;
-  border-bottom: solid 1px var(--chrome-border-color);
   background-color: var(--chrome-background);
+  border-bottom: solid 1px var(--chrome-border-color);
+  box-sizing: border-box;
   font-size: 0;
+  height: 39px;
+  padding: 4px 12px;
+  width: 100%;
 }
 #app-web-container {
-  width: 100%;
   display: flex;
-  flex: 1 1 auto;
   flex-direction: column;
+  flex: 1 1 auto;
+  width: 100%;
 }
 
 /* Webviews */
 #webviews {
-  width: 100%;
-  height: 100%;
   flex: 1 1 auto;
+  height: 100%;
   position: relative;
+  width: 100%;
 }
 #webviews webview {
-  width: 100%;
   height: 100%;
   position: absolute;
   visibility: hidden;
+  width: 100%;
 }
 #webviews webview.active {
   visibility: visible;
@@ -81,13 +83,13 @@ button {
 
 /* Button class (.btn) */
 .btn {
-  width: 30px;
-  height: 30px;
-  box-sizing: border-box;
-  padding: 3px;
-  border-radius: 8px;
   background-color: transparent;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 30px;
+  padding: 3px;
   transition: background-color 0.36s var(--btn-transition);
+  width: 30px;
 }
 .btn:hover {
   background-color: rgba(0,0,0,0.08);
@@ -99,10 +101,10 @@ button {
 
 /* Button svg class (.btnSvg) */
 .btnSvg {
-  width: 100%;
-  height: 100%;
-  background-color: var(--btn-icon-background);
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100%;
+  background-color: var(--btn-icon-background);
+  height: 100%;
+  width: 100%;
 }
