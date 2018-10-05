@@ -5,6 +5,8 @@
   height: 38px;
   margin: 0 6px 0 12px;
   flex: 1 1 auto;
+  display: flex;
+  overflow: hidden;
 }
 
 /* Window controls */
