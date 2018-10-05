@@ -11,7 +11,7 @@
 
 /* Window controls */
 #app-titlebar.win32 #window-controls {
-  width: 135px;
+  flex: 0 0 135px;
   height: 27px;
   box-sizing: border-box;
   -webkit-app-region: no-drag;
@@ -39,7 +39,7 @@
 
 /* Window controls */
 #app-titlebar.darwin #window-controls {
-  width: 66px;
+  flex: 0 0 66px;
   height: 38px;
   box-sizing: border-box;
 }
