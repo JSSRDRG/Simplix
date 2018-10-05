@@ -16,8 +16,10 @@ install:
   - ps: Install-Product node $env:nodejs_version x64
   # install modules
   - npm install
+  - npm install -g codecov
 
 test: off
 
 build_script:
   - npm run build-win32
+  - codecov
