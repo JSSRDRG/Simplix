@@ -1,5 +1,5 @@
 # Simplix
-[![Build status](https://ci.appveyor.com/api/projects/status/x0aj5p66dv1rw3tx?svg=true)](https://ci.appveyor.com/project/JSSRDRG/simplix) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Build status](https://ci.appveyor.com/api/projects/status/x0aj5p66dv1rw3tx?svg=true)](https://ci.appveyor.com/project/JSSRDRG/simplix) [![codecov](https://codecov.io/gh/JSSRDRG/simplix/branch/master/graph/badge.svg)](https://codecov.io/gh/JSSRDRG/simplix) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 Browser build on chromium &amp; electron.
 
