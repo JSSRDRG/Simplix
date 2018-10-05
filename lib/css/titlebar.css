@@ -52,12 +52,15 @@
   height: 38px;
   margin: 0 6px 0 12px;
   flex: 1 1 auto;
+  display: flex;
+  overflow: hidden;
 }
 
 /* ------- Tab item ------- */
 .tab {
-  display: inline-block;
-  width: 240px;
+  display: flex;
+  flex: 0 1 240px;
+  min-width: 100px;
   height: 30px;
   background-color: var(--tab-background);
   border-radius: 8px 8px 8px 8px;
@@ -80,7 +83,6 @@
   margin: 0 6px 0 0;
 }
 .tab.active {
-  display: inline-block;
   height: 38px;
   background-color: var(--tab-active-background);
   border-radius: 8px 8px 0 0;
@@ -88,24 +90,50 @@
   margin: 0 6px 0 0;
 }
 .tab .favicon {
-  display: inline-block;
-  width: 18px;
+  flex: 0 0 18px;
   height: 18px;
   margin-right: 10px;
   background-size: 18px;
   background-repeat: no-repeat;
 }
 .tab .title {
-  display: inline-block;
-  width: 192px;
+  flex: 0 1 192px;
   height: 18px;
+  box-sizing: border-box;
+  position: relative;
+  padding-right: 10px;
   line-height: 18px;
   font-size: 13px;
   color: var(--tab-text-color);
   vertical-align: top;
   overflow: hidden;
-  transition: color 0.3s ease:
+  transition: color 0.3s ease;
+}
+.tab .title::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: inset -16px 0px 8px -8px var(--tab-background);
+  transition: box-shadow 0.4s ease;
 }
 .tab.active .title {
   color: var(--tab-active-text-color);
+}
+.tab.active .title::before {
+  box-shadow: inset -16px 0px 8px -8px var(--tab-active-background);
+}
+.tab .close {
+  flex: 0 0 18px;
+  height: 18px;
+}
+#closeBtn {
+  width: 18px;
+  height: 18px;
+}
+#closeBtn .btnSvg {
+  -webkit-mask-image: url(../icons/close.svg);
+  -webkit-mask-size: 16px;
 }
