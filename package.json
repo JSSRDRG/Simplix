@@ -7,6 +7,7 @@
   "scripts": {
     "start": "electron .",
     "lint": "standard",
+    "lintCss": "csslint lib",
     "build-win32": "electron-packager . Simplix --overwrite --platform=win32 --out=builds/win32",
     "build-darwin": "electron-packager . Simplix --overwrite --platform=darwin --out=builds/darwin && mv builds/darwin/Simplix-darwin-x64/Simplix.app builds/darwin && rm -r builds/darwin/Simplix-darwin-x64"
   },
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/JSSRDRG/simplix#readme",
   "devDependencies": {
+    "csslint": "^1.0.5",
     "electron": "^3.0.2",
     "electron-packager": "^12.2.0",
     "standard": "^12.0.1"
