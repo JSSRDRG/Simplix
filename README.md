@@ -19,6 +19,7 @@ Browser build on chromium &amp; electron.
 Notable changes in new Simplix versions will be documented here.
 
 ### 0.0.1-alpha.3
+* Bumped Electron to 3.0.3
 
 ### 0.0.1-alpha.2
 * Fixed macOS fullscreen bug, titlebar margin-left was incorrect when in fullscreen.
