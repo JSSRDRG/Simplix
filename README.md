@@ -22,6 +22,7 @@ Notable changes in new Simplix versions will be documented here.
 * Fixed macOS fullscreen bug, titlebar margin-left was incorrect when in fullscreen.
 * Fixed tab text color transition bug.
 * Added dynamic tab item size, will shrink when window gets smaller.
+* Under-the-hood changes to storing information about the tabs.
 
 ### 0.0.1-alpha.1
 * Added titlebar (Windows & MacOS).
