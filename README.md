@@ -21,6 +21,8 @@ Notable changes in new Simplix versions will be documented here.
 ### 0.0.1
 * Bumped Electron to 3.0.3
 * Scroll bounce added for macOS.
+* [Security] Disabled ```window.eval``` .
+* Changed webview id to ```view${id}```.
 
 ### 0.0.1-alpha.2
 * Fixed macOS fullscreen bug, titlebar margin-left was incorrect when in fullscreen.
