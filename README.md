@@ -18,6 +18,9 @@ Browser build on chromium &amp; electron.
 
 Notable changes in new Simplix versions will be documented here.
 
+### 0.0.2-beta
+* Added window resize region around the window.
+
 ### 0.0.1
 * Bumped Electron to 3.0.3
 * Scroll bounce added for macOS.
