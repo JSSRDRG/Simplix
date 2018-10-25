@@ -21,6 +21,7 @@ Notable changes in new Simplix versions will be documented here.
 ### 0.0.2-beta
 * Added window resize region around the window.
 * Bumped Electron to 3.0.6
+* When you close a tab another tab will be set active.
 
 ### 0.0.1
 * Bumped Electron to 3.0.3
