@@ -3,10 +3,13 @@
 /* Tab Bar */
 #app-titlebar.win32 #tab-bar {
   height: 38px;
-  margin: 0 6px 0 12px;
+  margin: 6px 6px 0 6px;
   flex: 1 1 auto;
   display: flex;
   overflow: hidden;
+}
+#app.maximized #tab-bar {
+  margin: 0 6px;
 }
 
 /* Window controls */
@@ -50,7 +53,7 @@
 /* Tab Bar */
 #app-titlebar.darwin #tab-bar {
   height: 38px;
-  margin: 0 6px 0 12px;
+  margin: 6px 6px 0 6px;
   flex: 1 1 auto;
   display: flex;
   overflow: hidden;
