@@ -33,8 +33,11 @@ button:focus {
   -webkit-app-region: drag;
   background-color: var(--titlebar-background);
   display: flex;
-  height: 38px;
+  height: 44px;
   width: 100%;
+}
+#app.maximized #app-titlebar{
+  height: 38px;
 }
 /* Resize handles */
 .resizeHandle {
@@ -49,12 +52,15 @@ button:focus {
 .resizeHandle.left {
   width: 3px;
   left: 0;
-  height: 38px;
+  height: 44px;
 }
 .resizeHandle.right {
   width: 3px;
   right: 0;
-  height: 38px;
+  height: 44px;
+}
+#app.maximized .resizeHandle {
+  display: none;
 }
 
 #app-content {
