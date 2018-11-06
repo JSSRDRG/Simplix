@@ -15,14 +15,14 @@
 /* Window controls */
 #app-titlebar.win32 #window-controls {
   flex: 0 0 135px;
-  height: 27px;
+  height: 33px;
   box-sizing: border-box;
   -webkit-app-region: no-drag;
 }
 #app-titlebar.win32 #window-controls .windows-button {
   display: inline-block;
   width: 45px;
-  height: 27px;
+  height: 33px;
   color: var(--window-controls-color);
   transition: background-color 0.25s;
 }
