@@ -18,7 +18,9 @@ Browser build on chromium &amp; electron.
 
 Notable changes in new Simplix versions will be documented here.
 
-### 0.0.2-beta
+### 0.0.2
+* Added a loading spinner when the page is loading.
+* Page title will now correctly be updated.
 * Added window resize region around the window.
 * Bumped Electron to 3.0.7
 * When you close a tab another tab will be set active.
