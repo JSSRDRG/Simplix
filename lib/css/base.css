@@ -36,6 +36,9 @@ button:focus {
   height: 44px;
   width: 100%;
 }
+#app.darwin #app-titlebar {
+  height: 38px;
+}
 #app.maximized #app-titlebar{
   height: 38px;
 }
@@ -54,10 +57,16 @@ button:focus {
   left: 0;
   height: 44px;
 }
+#app.darwin .resizeHandle.left {
+  height: 38px;
+}
 .resizeHandle.right {
   width: 3px;
   right: 0;
   height: 44px;
+}
+#app.darwin .resizeHandle.right {
+  height: 38px;
 }
 #app.maximized .resizeHandle {
   display: none;
