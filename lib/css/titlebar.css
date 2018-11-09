@@ -1,7 +1,7 @@
 /* ------- Windows ------- */
 
 /* Tab Bar */
-#app-titlebar.win32 #tab-bar {
+#app.win32 #tab-bar {
   height: 38px;
   margin: 6px 6px 0 6px;
   flex: 1 1 auto;
@@ -9,58 +9,95 @@
   overflow: hidden;
 }
 #app.maximized #tab-bar {
-  margin: 0 6px;
+  margin: 0 6px
 }
 
 /* Window controls */
-#app-titlebar.win32 #window-controls {
+#app.win32 #window-controls {
   flex: 0 0 135px;
   height: 33px;
   box-sizing: border-box;
   -webkit-app-region: no-drag;
 }
-#app-titlebar.win32 #window-controls .windows-button {
+#app.win32 #window-controls .windows-button {
   display: inline-block;
   width: 45px;
   height: 33px;
   color: var(--window-controls-color);
   transition: background-color 0.25s;
 }
-#app-titlebar.win32 #window-controls .windows-button:hover {
+#app.win32 #window-controls .windows-button:hover {
   background-color: rgba(0,0,0,0.1);
   color: var(--window-controls-color-active);
 }
-#app-titlebar.win32 #window-controls .windows-button:hover:active {
+#app.win32 #window-controls .windows-button:hover:active {
   background-color: rgba(0,0,0,0.18);
   transition: none;
 }
-#app-titlebar.win32 #window-controls .windows-button svg {
+#app.win32 #window-controls .windows-button svg {
   fill: currentColor;
+}
+
+/* Tab item */
+#app.win32 .tab {
+  display: flex;
+  flex: 0 1 240px;
+  min-width: 100px;
+  height: 30px;
+  background-color: var(--tab-background);
+  border-radius: 8px 8px 8px 8px;
+  box-sizing: border-box;
+  padding: 6px 10px;
+  margin: 4px 6px 0 0;
+  vertical-align: top;
+  -webkit-app-region: no-drag;
+  transition:
+    height 0.2s ease,
+    background-color 0.4s ease,
+    border-radius 0.4s ease,
+    padding 0.2s ease,
+    margin 0.2s ease;
+}
+#app.win32 .tab:hover {
+  height: 38px;
+  border-radius: 8px 8px 0 0;
+  padding: 10px;
+  margin: 0 6px 0 0;
+}
+#app.win32 .tab.active {
+  height: 38px;
+  background-color: var(--tab-active-background);
+  border-radius: 8px 8px 0 0;
+  padding: 10px;
+  margin: 0 6px 0 0;
 }
 
 /* ------- MacOS ------- */
 
 /* Window controls */
-#app-titlebar.darwin #window-controls {
+#app.darwin #window-controls {
   flex: 0 0 72px;
   height: 38px;
   box-sizing: border-box;
 }
-#app-titlebar.darwin #window-controls.fullscreen {
+#app.darwin #window-controls.fullscreen {
   flex: 0 0 0px;
 }
 
 /* Tab Bar */
-#app-titlebar.darwin #tab-bar {
+#app.darwin #tab-bar {
   height: 32px;
   margin: 6px 6px 0 6px;
   flex: 1 1 auto;
   display: flex;
   overflow: hidden;
 }
+#app.darwin #app-titlebar {
+  height: 38px;
+}
 
-/* ------- Tab item ------- */
-.tab {
+/* Tab item */
+#app.darwin .tab {
   display: flex;
   flex: 0 1 240px;
   min-width: 100px;
@@ -79,19 +116,22 @@
     padding 0.2s ease,
     margin 0.2s ease;
 }
-.tab:hover {
+#app.darwin .tab:hover {
   height: 32px;
   border-radius: 8px 8px 0 0;
   padding: 7px;
   margin: 0 6px 0 0;
 }
-.tab.active {
+#app.darwin .tab.active {
   height: 32px;
   background-color: var(--tab-active-background);
   border-radius: 8px 8px 0 0;
   padding: 7px;
   margin: 0 6px 0 0;
 }
+
+/* ------- Tab content ------- */
+
 .tab .icon {
   flex: 0 0 18px;
   overflow: hidden;

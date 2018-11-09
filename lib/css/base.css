@@ -36,9 +36,6 @@ button:focus {
   height: 44px;
   width: 100%;
 }
-#app.darwin #app-titlebar {
-  height: 38px;
-}
 #app.maximized #app-titlebar{
   height: 38px;
 }
