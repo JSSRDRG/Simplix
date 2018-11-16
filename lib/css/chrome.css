@@ -57,12 +57,3 @@
    margin: 2px 3px 2px 0;
    background-color: rgba(0,0,0,0.1);
 }
-#securityBtn {
-  margin-right: 3px;
-  width: 26px;
-  height: 26px;
-}
-#securityBtn .btnSvg {
-  -webkit-mask-image: url(../icons/https.svg);
-  -webkit-mask-size: 16px;
-}
