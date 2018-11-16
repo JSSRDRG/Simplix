@@ -1,18 +1,24 @@
 /* Controls buttons */
 #menuBtn {
   margin-right: 4px;
+  width: 30px;
+  height: 30px;
 }
 #menuBtn .btnSvg {
   -webkit-mask-image: url(../icons/menu.svg);
 }
 #homeBtn {
   margin-right: 4px;
+  width: 30px;
+  height: 30px;
 }
 #homeBtn .btnSvg {
   -webkit-mask-image: url(../icons/home.svg);
 }
 #addBtn {
   margin-right: 4px;
+  width: 30px;
+  height: 30px;
 }
 #addBtn .btnSvg {
   -webkit-mask-image: url(../icons/add.svg);
@@ -24,6 +30,39 @@
   border-radius: 8px;
   flex: 1 1 auto;
   background-color: rgba(0,0,0,0.08);
-  display: inline-block;
+  display: inline-flex;
+  box-sizing: border-box;
+  padding: 2px;
   vertical-align: bottom;
+}
+#backBtn {
+  margin-right: 3px;
+  width: 26px;
+  height: 26px;
+}
+#backBtn .btnSvg {
+  -webkit-mask-image: url(../icons/back.svg);
+}
+#forwardBtn {
+  margin-right: 3px;
+  width: 26px;
+  height: 26px;
+}
+#forwardBtn .btnSvg {
+  -webkit-mask-image: url(../icons/forward.svg);
+}
+.divider {
+   width: 1px;
+   height: 22px;
+   margin: 2px 3px 2px 0;
+   background-color: rgba(0,0,0,0.1);
+}
+#securityBtn {
+  margin-right: 3px;
+  width: 26px;
+  height: 26px;
+}
+#securityBtn .btnSvg {
+  -webkit-mask-image: url(../icons/https.svg);
+  -webkit-mask-size: 16px;
 }
