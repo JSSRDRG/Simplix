@@ -1,7 +1,7 @@
 {
   "name": "simplix",
   "productName": "Simplix",
-  "version": "0.0.2-beta",
+  "version": "0.0.3",
   "description": "Browser build on chromium & electron.",
   "main": "lib/main/main.js",
   "scripts": {
