@@ -120,10 +120,8 @@ button:focus {
   background-color: transparent;
   border-radius: 8px;
   box-sizing: border-box;
-  height: 30px;
   padding: 3px;
   transition: background-color 0.36s var(--btn-transition);
-  width: 30px;
 }
 .btn:hover {
   background-color: rgba(0,0,0,0.08);
