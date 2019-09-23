@@ -23,7 +23,7 @@
   "homepage": "https://github.com/JSSRDRG/simplix#readme",
   "devDependencies": {
     "csslint": "^1.0.5",
-    "electron": "^4.2.2",
+    "electron": "^4.2.10",
     "electron-packager": "^12.2.0",
     "standard": "^12.0.1"
   }
